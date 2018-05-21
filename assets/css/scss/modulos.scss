@@ -1,0 +1,42 @@
+.modulos{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.modulo-container {
+  margin-bottom: 30px;
+}
+
+.container-row-images {
+  padding: 20px 50px;
+}
+
+@media (min-width: 768px) {
+
+  .modulos{
+    margin-top: 50px;
+  }
+
+  .modulo-container {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+
+  .modulos{
+    margin-top: 75px;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+
+  .modulos{
+    margin-top: 100px;
+  }
+
+}

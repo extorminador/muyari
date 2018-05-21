@@ -1,0 +1,85 @@
+/* Cover Homer Carousel */
+.carousel-control-prev {
+  background: linear-gradient(to right, rgba(45,45,45,.5), rgba(0,0,0,0));
+}
+
+.carousel-control-next {
+  background: linear-gradient(to left, rgba(45,45,45,.5), rgba(0,0,0,0));
+}
+
+.carousel-indicators li{
+  background-color: $third;
+}
+
+.carousel-indicators .active{
+  background-color: $gold;
+}
+
+.ion-ios-arrow-left,
+.ion-ios-arrow-right {
+  font-size: 42px;
+  margin-top: 0px;
+}
+
+
+/* Cover Sections */
+.cover-nosotros-image {
+  background:url('../img/cover-nosotros.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-contacto-image {
+  background:url('../img/cover-contacto.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-distribuidor-image {
+  background:url('../img/cover-distribuidor.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-tiendas-image {
+  background:url('../img/cover-distribuidor.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-collares-image {
+  background:url('../img/cover-tiendas.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //height: 410px;
+}
+
+
+/* Background Image Sections */
+.bg-distribuidor-image {
+  background:url('../img/bg-distribuidor.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (min-width: 1500px) {
+  .cover {
+    position: relative;
+    z-index: 1;
+    margin-top: -200px;
+  }
+
+  .ion-ios-arrow-left,
+  .ion-ios-arrow-right {
+    font-size: 52px;
+    margin-top: 200px;
+  }
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    margin-top: 200px;
+  }
+
+}

@@ -1,0 +1,250 @@
+// Cormorant Garamond
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600');
+
+// Montserrat
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+// Montserrat
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+
+html {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  color: $primary !important;
+  font-family: 'Source Sans Pro', serif !important;
+  font-weight: 400 !important;
+}
+
+h1,h2,h3 {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  color: $primary !important;
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-style: bold !important;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h5 {
+  color: $primary;
+  font-family: 'Source Sans Pro', serif !important;
+  font-weight: 400 !important;
+  font-size: 24px;
+}
+
+p {
+  color: $primary;
+  font-family: 'Source Sans Pro', serif !important;
+  font-weight: 400 !important;
+}
+
+strong {
+  font-weight: 600 !important;
+  color: $primary;
+}
+
+.underline {
+  text-decoration: underline;
+  color: $primary;
+  font-size: 12px;
+}
+
+p.condicion label {
+  font-size: 12px;
+}
+
+.padding-bottom-20px {
+  padding-bottom: 20px;
+}
+
+.padding-top-container {
+  padding-top: 50px;
+}
+
+.padding-bottom-container {
+  padding-bottom: 50px;
+}
+
+.no-paddings {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.text-content {
+  white-space: pre-line;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title-cover {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  white-space: pre-line;
+}
+
+.title-image-bg {
+  font-size: 52px;
+  line-height: 50px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  white-space: pre-line;
+}
+
+.text-image-bg {
+  font-size: 20px;
+  padding-bottom: 30px;
+  white-space: pre-line;
+}
+
+.subtitle-cover,
+.subtitle-content
+ {
+  font-family: 'Montserrat', serif !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $gold;
+  padding-top: 20px;
+}
+
+.text-montserrat {
+  font-family: 'Montserrat', serif !important;
+  font-weight: 600 !important;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-third {
+  color: $third;
+}
+
+.text-gold {
+  color: $gold !important;
+}
+
+.text-pink {
+  color: $pink !important;
+}
+
+.text-padding-botton {
+  padding-bottom: 20px;
+}
+
+.mail-padding {
+  padding-top: 50px;
+}
+
+.text-phone,
+.text-mail {
+  font-size: 20px !important;
+}
+
+.text-phone:hover,
+.text-mail:hover {
+  color: $gold;
+  text-decoration:underline;
+}
+
+.icon-phone {
+  fill: #94d31b;
+}
+
+
+//Aside
+
+.aside-text {
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-style: bold !important;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.aside-title {
+  font-size: 20px;
+  line-height: 26px;
+  white-space: pre-line;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  color: $gold !important;
+}
+
+.aside-text-date {
+  font-size: 18px;
+  line-height: 30px;
+  color: $gold;
+}
+
+.aside-span-text {
+  font-size: 18px;
+  line-height: 30px;
+  color: $primary;
+  font-style: bold !important;
+}
+
+// Ficha
+.information-text {
+  font-weight: 600;
+  font-style: bold !important;
+  font-size: 14px;
+  color: $third !important;
+  text-transform: uppercase;
+}
+
+
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 90px;
+    line-height: 80px;
+  }
+
+  .title-cover {
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+
+  .subtitle-cover {
+    font-size: 18px;
+    padding-top: 150px;
+  }
+
+  .title-image-bg {
+    font-size: 90px;
+    line-height: 80px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .text-image-bg {
+    padding-bottom: 100px;
+  }
+
+  .padding-top-container {
+    padding-top: 100px;
+  }
+
+  .padding-bottom-container {
+    padding-bottom: 100px;
+  }
+
+}

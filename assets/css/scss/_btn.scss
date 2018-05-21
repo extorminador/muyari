@@ -1,0 +1,74 @@
+.btn {
+  background-image: none;
+  border-color: none;
+  font-family: 'Montserrat', serif !important;
+  font-weight: 600 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 16px 32px;
+}
+
+.btn-text-overlay,
+.btn-text-overlay-gold {
+  color: $white;
+}
+
+.btn-text-overlay-white {
+    border-color: $white !important;
+    margin-top: 40px;
+}
+
+.btn-text-overlay-gold {
+  color: $white !important;
+  border-color: $gold !important;
+}
+
+.btn-gold {
+  color: $white !important;
+  border-color: $gold !important;
+  background-color: $gold;
+  margin-top: 30px;
+}
+
+.btn-text-overlay:hover {
+    color: $white;
+    border-color: $white;
+    background-color: transparent;
+    background-image: none;
+    border-color: $white;
+}
+
+.btn-text-overlay-white:hover {
+    color: $black;
+    border-color: $white;
+    background-color: $white;
+    background-image: none;
+    border-color: $white;
+}
+
+.btn-search:focus {
+  background-color: $white;
+}
+
+
+@media (min-width: 768px) {
+
+  .btn-text-overlay {
+    font-size: 9px;
+    padding: 8px 16px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .btn-text-overlay {
+    font-size: 12px;
+    padding: 16px 32px;
+  }
+
+  .btn-gold {
+    margin-top: 0px;
+  }
+
+}

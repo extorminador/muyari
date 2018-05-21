@@ -1,0 +1,121 @@
+//Image Overlay Fade
+
+.overlay {
+  position: relative;
+  width: 100%;
+  transition: .1s ease;
+}
+
+.overlay-margin-top {
+  margin-top: 30px;
+}
+
+.overlay-margin-top-plus {
+  margin-top: 30px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .1s ease;
+  backface-visibility: hidden;
+}
+
+.middle-title h2,
+.middle-title-2 h2 {
+  font-size: 32px;
+  color: $white !important;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 16px $black;
+}
+
+.middle-title,
+.middle-title-2 {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .2s ease;
+}
+
+.overlay:hover .middle-title-2  {
+  top: 35%;
+  left: 50%;
+}
+
+.overlay:hover .middle-title  {
+  top: 45%;
+  left: 50%;
+}
+
+.middle, .middle-2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay:hover {
+  background: black;
+}
+
+.overlay:hover .image {
+  opacity: 0.3;
+}
+
+.overlay:hover .middle{
+  opacity: 1;
+}
+
+.overlay:hover .middle-2{
+  opacity: 1;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  .overlay-margin-top-minus {
+    margin-top: -115px;
+  }
+
+  .middle-title h2,
+  .middle-title-2 h2 {
+    font-size: 24px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .overlay-margin-top-minus {
+    margin-top: -170px;
+  }
+
+  .middle-title h2,
+  .middle-title-2 h2 {
+    font-size: 40px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .overlay-margin-top-minus {
+    margin-top: -210px;
+  }
+
+}

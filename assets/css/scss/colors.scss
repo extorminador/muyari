@@ -1,0 +1,52 @@
+$primary:         #2d2d2d;
+$secondary:       #777777;
+$third:           #cccccc;
+$gray:            #eeeeee;
+
+
+$pink:            #c486a6;
+$gold:            #b09a6a;
+$blue:            #009fb0;
+$silver:          #707473;
+$red:             #b5110a;
+$brown:           #a06942;
+
+
+$white:            #ffffff;
+$black:            #000000;
+
+.background-primary {
+  background: $primary;
+}
+
+.background-secondary {
+  background: $secondary;
+}
+
+.background-third {
+  background: $third;
+}
+
+.background-pink {
+  background: $pink;
+}
+
+.background-gold {
+  background: $gold;
+}
+
+.background-blue {
+  background: $blue;
+}
+
+.background-silver {
+  background: $silver;
+}
+
+.background-red {
+  background: $red;
+}
+
+.background-brown {
+  background: $brown;
+}

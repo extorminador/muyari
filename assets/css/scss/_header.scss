@@ -1,0 +1,390 @@
+body {
+  background: $white !important;
+}
+
+header {
+  background: $white;
+  position: relative;
+  z-index: 9;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  background: $gray;
+}
+
+.navbar-toggler:focus {
+  background: lighten($gold,20%)!important;
+}
+
+.bg-light {
+  background: $white !important;
+}
+
+.brand-logo {
+  width: 160px;
+}
+
+.navbar-header {
+  float: left;
+  width: 100%;
+}
+
+.navbar-toggler {
+  margin-top: 10px;
+  float: right;
+}
+
+.menu-up-mobile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-up-mobile {
+}
+
+.form-inline-mobile {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $gray;
+}
+
+.form-control-mobile {
+  width: 200px !important;
+  background: $gray !important;
+}
+
+.menu-up {
+  display: none;
+}
+
+.menu-up > ul > li {
+  background: $white;
+}
+
+.form-control {
+  padding-right: 0;
+  border-radius:0;
+  border: 0;
+  border-bottom: 1px solid $gray !important;
+}
+
+.form-control:focus {
+  background: none !important;
+  border: 0;
+}
+
+.form-inline {
+  display: block;
+  height: 45px;
+  margin-right: 0px;
+}
+
+.form-inline:focus {
+}
+
+.form-control:focus {
+  background: none !important;
+}
+
+
+.btn-search {
+  font-size: 16px;
+  color: $third;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0px solid;
+  border-radius:0;
+}
+
+.btn-search:hover {
+  color: gray;
+}
+
+.nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $gray;
+}
+
+.nav-item:last-child {
+  border-bottom: 4px solid $gray;
+}
+
+.nav-link {
+  font-family: 'Montserrat', serif !important;
+  font-weight: 600 !important;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.nav-link-primary {
+  color: $primary !important;
+  padding-right: 70px;
+}
+
+.nav-link-primary:hover {
+  color: $third !important;
+}
+
+ .nav-link-primary-active {
+   color: $third !important;
+ }
+
+.nav-link-secondary:hover {
+  color: $gold !important;
+}
+
+.nav-link-secondary-active {
+  color: $gold !important;
+}
+
+.dropdown-menu {
+  font-family: 'Montserrat', serif !important;
+  font-weight: 600 !important;
+  font-size: 12px;
+  padding: 0px;
+  border-radius: 0px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px 0 rgba(45, 45, 45, 0.15);
+}
+
+.dropdown-item {
+  color: $secondary !important;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 4px solid $white;
+  border-bottom: 1px solid $gray;
+  transition: 0.1s ease;
+  color: $primary !important;
+  font-weight: 600 !important;
+  &:hover {
+    background-color: $light-gray;
+  }
+  &__pink:hover{
+    border-top: 4px solid $pink;
+    color: $primary !important;
+  }
+  &__pink-active {
+    border-top: 4px solid $pink;
+    background: $gray;
+  }
+  &__blue:hover{
+      border-top: 4px solid $blue;
+  }
+  &__gold:hover{
+      border-top: 4px solid $gold;
+  }
+  &__silver:hover{
+      border-top: 4px solid $silver;
+  }
+  &__red:hover{
+      border-top: 4px solid $red;
+  }
+  &:focus {
+    background-color: $white;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .brand-logo {
+    width: 260px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .menu-up {
+    display: block;
+  }
+
+  .menu-up > ul > li {
+    background: $white;
+  }
+
+  .menu-up-mobile {
+    display: none;
+  }
+
+  .nav-item-menu-up {
+    padding-left: 10px;
+  }
+
+  .nav-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px solid $gray;
+  }
+
+  .nav-link,
+  .dropdown-item {
+    font-size: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-header {
+    float: left;
+    width: 100%;
+  }
+
+  .menu-container {
+    width: 100%;
+  }
+
+  .menu-up{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right !important;
+  }
+
+  .form-inline {
+    margin-right: 100px;
+  }
+
+  .menu-down {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right!important;
+  }
+
+  .nav-link-primary{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .nav-link-secondary {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .nav-link-primary-border {
+    border-right: 1px solid $third;
+  }
+
+  .nav-link-secondary-first {
+    margin-left: 10px !important;
+  }
+
+  .nav-item:last-child {
+    border-bottom: 0px solid $black;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .brand-logo {
+    width: 300px;
+  }
+
+  .dropdown-menu {
+    margin-top: 0px;
+  }
+
+  .dropdown-item {
+    display: table-cell;
+    border-right: 1px solid $third;
+    border-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .text-align-right {
+    text-align: right !important;
+    float: right !important;
+  }
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+  .brand-logo {
+    width: 360px;
+    padding-left: 50px;
+  }
+
+  .bg-light {
+    height: 170px;
+    width: 100%;
+  }
+
+  .nav-link,
+  .dropdown-item {
+    font-size: 11px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .dropdown-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-link-primary{
+    padding-left: 15px !important;
+    padding-right: 25px !important;
+  }
+
+  .nav-link-primary-border {
+    border-right: 1px solid $third;
+  }
+
+  .nav-link-secondary {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .nav-link-secondary:first-child {
+    padding-left: 15px !important;
+  }
+
+}
+
+@media (min-width: 1500px) {
+
+  .brand-logo {
+    width: 450px;
+    padding-left: 100px;
+  }
+
+  .nav-link-primary{
+    padding-left: 30px !important;
+    padding-right: 50px !important;
+  }
+
+  .nav-link-primary-border {
+    border-right: 1px solid $third;
+  }
+
+  .nav-link-secondary {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .nav-link-secondary:first-child {
+    padding-left: 30px !important;
+  }
+
+  .nav-link-secondary-first {
+    margin-left: 20px !important;
+  }
+
+
+}

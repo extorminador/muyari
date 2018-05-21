@@ -1,0 +1,137 @@
+form {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+input[type=search]
+{
+  font-size: 16px;
+  border-bottom: 0;
+  margin: 0;
+  height: auto;
+}
+
+.input-field label {
+  color: $primary;
+  font-family: 'Source Sans Pro', serif !important;
+  font-weight: 400 !important;
+  font-size: 16px;
+}
+
+.datepicker:hover,
+.select-wrapper input.select-dropdown:hover,
+input[type=text]:hover,
+input[type=email]:hover, {
+    border-bottom: 1px solid $gray;
+    box-shadow: 0 1px 0 0 $gray;
+}
+
+/* label color */
+.input[type=text] {
+    color: $primary;
+}
+
+/* label color */
+.input-field label {
+  color: $primary;
+}
+
+.input-field label.active {
+  color: $third;
+}
+
+
+/* label focus color */
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+textarea.materialize-textarea {
+     color: $primary;
+}
+
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=tel]:focus {
+    border-bottom: 1px solid $gold;
+    box-shadow: 0 1px 0 0 $gold;
+}
+
+
+textarea.materialize-textarea {
+    overflow-y: hidden;
+    resize: none;
+    min-height: 90px;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid $gold;
+    box-shadow: 0 1px 0 0 $gold;
+}
+
+
+
+
+/* valid color */
+.input-field input[type=text].valid,
+.input-field input[type=email].valid,
+.input-field input[type=date].valid,
+.input-field input[type=datetime].valid,
+.input-field input[type=datetime-local].valid,
+.input-field input[type=tel].valid,
+.input-field input[type=number].valid,
+.input-field input[type=search].valid {
+    border-color: $primary;
+    border-bottom: 1px solid $primary;
+    box-shadow: 0 1px 0 0 $primary;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: yellow;
+}
+
+.picker__input.picker__input--active {
+    border-color: $primary;
+    border-bottom: 1px solid $primary;
+    box-shadow: 0 1px 0 0 $primary;
+}
+
+
+[type="checkbox"]:checked+label:before {
+  border-right: 2px solid $gold;
+  border-bottom: 2px solid $gold;
+}
+
+[type="checkbox"]:checked + label.filter-option:before {
+  border-right: 2px solid $third;
+  border-bottom: 2px solid $third;
+}
+
+[type="checkbox"]:checked + label {
+  color: black;
+}
+
+[type="checkbox"] + label.filter-option {
+  font-size: 12px;
+}
+
+input[type=search]:focus:not([readonly]){
+  border-bottom: 0px solid red;
+  box-shadow: 0 0px 0 0 red;
+}

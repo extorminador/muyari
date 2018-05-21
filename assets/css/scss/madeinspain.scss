@@ -1,0 +1,110 @@
+.container-bg-image {
+  padding: 20px;
+}
+
+.margin-to-up {
+  margin-top: -50px;
+}
+
+.bg-image {
+  background:url('../img/madeinspain.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.image-made {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.image-shadow {
+  box-shadow: 0px 0px 16px $primary;
+}
+
+
+.title-spain{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.subtitle-spain {
+  padding-bottom: 10px;
+  font-family: 'Montserrat', serif !important;
+  font-weight: 600 !important;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+
+  .container-bg-image {
+    padding: 20px 50px;
+  }
+
+  .margin-to-up {
+    margin-top: -100px;
+  }
+
+  .bg-image {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 50px;
+  }
+
+  .image-made {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+
+  .container-bg-image {
+    padding: 20px 50px;
+  }
+
+  .margin-to-up {
+    margin-top: -100px;
+  }
+
+  .bg-image {
+    height: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 50px;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+
+  .container-bg-image {
+    padding: 20px 50px;
+  }
+
+  .bg-image {
+    padding: 100px 100px;
+  }
+
+  .margin-to-up {
+    margin-top: -150px;
+  }
+
+  .bg-image {
+    padding: 100px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+
+}
